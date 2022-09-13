@@ -1,10 +1,10 @@
 const calcular = document.getElementById("calcular");
 
 function media() {
-  const pB = parseInt(document.getElementById("pB").value);
-  const sB = parseInt(document.getElementById("sB").value);
-  const tB = parseInt(document.getElementById("tB").value);
-  const qB = parseInt(document.getElementById("qB").value);
+  const pB = parseFloat(document.getElementById("pB").value);
+  const sB = parseFloat(document.getElementById("sB").value);
+  const tB = parseFloat(document.getElementById("tB").value);
+  const qB = parseFloat(document.getElementById("qB").value);
 
   const resultado = document.getElementById("resultado");
 
